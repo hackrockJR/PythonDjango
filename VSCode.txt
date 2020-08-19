@@ -1,0 +1,9 @@
+1-descargar VSCODE
+2-instalar
+  en la instalacion
+    Agregar la accion "Abir con Code" en el menu contextual de archivo del explorador de windows.
+3- Descargar GIT https://git-scm.com/download/win
+4- Instalar git
+   desactivar> windows explorer integration
+   Inicializar con Visual studio code
+ 
