@@ -1,0 +1,42 @@
+Instalar en windows 10
+1- Descargar Miniconda 3.8 de 64 bits.
+2- Instalar en un ambiente sin python.
+3- Dejar en la ruta raiz de C:/Miniconda3
+4- Agregar al PATH
+5- create -n py38 python=3.8
+6- activate py36
+7- pip freeze
+8- pip list
+9- mkdir devpy
+10- django-admin startproject proyecto
+
+
+////////lineas de comandos////
+
+
+# Consultar la versión de Python por defecto
+python -V
+
+# Crear entorno Conda vacío con Python 3.7
+conda create -n django2 python==3.7 sqlite==3.25.3
+
+# Activar el entorno virtual
+activate django2
+
+# Listar los paquetes instalados en el entorno virtual
+(django2) pip list
+
+# Instalar Django en el entorno virtual
+(django2) pip install django  # se puede instalar cualquier versión con django==2.0.2 o la que sea
+
+# Crear un proyecto de Django
+(django2) django-admin startproject proyecto
+
+# Desinstalar Django del entorno virtual
+(django2) pip uninstall django
+
+# Desactivar el entorno virtual
+(django2) deactivate
+
+
+///////Fin de la liena de comandos////
