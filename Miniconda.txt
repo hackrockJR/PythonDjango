@@ -4,7 +4,7 @@ Instalar en windows 10
 3- Dejar en la ruta raiz de C:/Miniconda3
 4- Agregar al PATH
 5- create -n py38 python=3.8
-6- activate py36
+6- activate py38
 7- pip freeze
 8- pip list
 9- mkdir devpy
