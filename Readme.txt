@@ -20,3 +20,24 @@ Clase # 1
 14- Crear objetos en la base de datos. 
 
 }
+
+Miniconda
+
+{
+Instalar en windows 10
+1- Descargar Miniconda 3.8 de 64 bits.
+2- Instalar en un ambiente sin python.
+3- Dejar en la ruta raiz de C:/Miniconda3
+4- Agregar al PATH
+5- create -n py38 python=3.8
+6- activate py36
+7- pip freeze
+8- pip list
+9- mkdir devpy
+10- django-admin startproject proyecto
+
+
+}
+
+
+
